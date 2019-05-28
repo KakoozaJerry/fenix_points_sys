@@ -11,6 +11,7 @@ class Points(models.Model):
     pointsattained = models.CharField(max_length=30)
     tenure = models.CharField(max_length=30, default='0')
     seniority = models.CharField(max_length=30, default='A')
+    passwordz = models.CharField(max_length=30, default = '123')
 
 
 
