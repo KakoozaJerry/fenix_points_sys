@@ -7,7 +7,7 @@ class another():
     t = date.today()
     dateet = datetime.strptime(t.strftime("%Y-%m-%d"), "%Y-%m-%d")
     lst=[]
-    for i in  Employees.objects.filter(employee_id=4):
+    for i in  Employees.objects.filter(employee_id=3):
         dict={"zidi":i.id,"employeezidi":i.employee_id,"datii":i.date,"role":i.seniority}
         lst.append(dict)
     o = len(lst)
